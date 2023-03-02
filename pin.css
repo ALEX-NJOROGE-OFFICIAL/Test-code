@@ -1,0 +1,17 @@
+.btn-3d{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #EF4FDF;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow:0 6px 0 #BB1542;
+}
+.btn-3d:active{
+    box-shadow: none;
+    transform: translateY(6px);
+}
